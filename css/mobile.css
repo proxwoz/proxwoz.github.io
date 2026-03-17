@@ -1,0 +1,71 @@
+/* @media (max-width: 1024px) { */
+@media (max-width: 61em) {
+
+html, body {
+  /* font-size: 0.9em; */
+}
+
+h1 {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+/* homepage title */
+.landing-title img {
+  display: none;
+}
+
+/* navbar related */
+header {
+  font-size: large;
+}
+
+.navbar-wrapper {
+  width: 100vw;
+}
+
+.navbar-logo {
+  display: none;
+}
+
+.navbar ul {
+  text-align: center;
+}
+.navbar a {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* footer related */
+footer {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* text blocks (outside of containers */
+.text-block {
+  width: 95vw;
+}
+
+.text-block div {
+  padding: 0em 3em;
+}
+
+/* normal containers */
+.container {
+  width: 95vw;
+}
+.container div {
+  padding: 0.1em 3em;
+}
+
+
+/* preview containers */
+.preview-container {
+  width: 95vw;
+}
+.preview-container div {
+  padding: 0.1em 3em;
+}
+
+}

@@ -1,0 +1,162 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: #242424;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "DM Sans";
+}
+
+/* generic styling */
+h1 {
+  font-size: 5em;
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: justify;
+}
+ul {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* homepage title */
+.landing-title {
+  display: flex;
+  justify-content: center;
+  margin: 6em 1em;
+}
+.landing-title h1 {
+  width: auto;
+  margin: auto 0px;
+}
+
+.landing-title img {
+  border-radius: 20%;
+  margin: auto 2em;
+}
+
+/* navbar related */
+header {
+  background-color: #141414;
+  border-style: none none solid none;
+  font-size: x-large;
+  padding: 1em 0px;
+  height: 2em;
+  display: flex;
+}
+header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.navbar-wrapper {
+  width: 95vw;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  border-radius: 20%;
+  vertical-align: middle;
+  height: 1.75em;
+}
+.navbar-logo span {
+  vertical-align: middle;
+}
+
+.navbar {
+  flex: 1;
+  text-align: right;
+}
+.navbar ul {
+  font-size: inherit;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar a {
+  margin-left: 2em;
+}
+
+/* footer related */
+footer {
+  background-color: #141414;
+  border-style: solid none none none;
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* text blocks (outside of containers */
+.text-block {
+  text-align: justify;
+  width: 60em;
+  margin: 1em auto;
+}
+.text-block div {
+  /* padding: 1em 5em 0em 5em; */
+  padding: 0em 5em;
+}
+.text-block h2 {
+  font-size: 2.4em;
+}
+
+/* normal containers */
+.container {
+  background-color: #2f2f2f;
+  width: 60em;
+  border-radius: 4px;
+  margin: 2em auto;
+}
+.container div {
+  padding: 1em 5em;
+}
+.container h2 {
+  font-size: 1.8em;
+}
+
+/* preview containers */
+.preview-container {
+  background-color: #2f2f2f;
+  width: 60em;
+  border-radius: 4px;
+  margin: 2em auto;
+  height: 17em;
+  overflow: hidden;
+}
+.preview-container div {
+  padding: 1em 5em;
+}
+.preview-container h2 {
+  font-size: 1.8em;
+}
+.preview-container::before {
+  content: '';
+  height: inherit;
+  width: inherit;
+  position:absolute;
+  left: inherit;
+  top: inherit;
+  background:linear-gradient(transparent 20%, #2f2f2f);
+}
